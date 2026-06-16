@@ -20,7 +20,7 @@ their mission and impact.
 
 - 🌗 Dark / Light Mode Toggle
 - 📊 Animated Impact Counter (live counting stats)
-- 🤖 AI Chatbot (answers questions about NayePankh)
+- 🤖 AI Chatbot (answers questions about NayePankh) (keeping groq api key visible is not a mistake it is open Nayepankh can test my projects without any issue)
 - 🧠 Volunteer Role Finder Quiz (AI recommends best role)
 - 💸 Donation Impact Calculator
 - 📱 Fully Mobile Responsive
