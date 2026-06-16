@@ -46,7 +46,7 @@ their mission and impact.
 - HTML5
 - CSS3 (Flexbox, Grid, Animations)
 - Vanilla JavaScript
-- Claude AI API (chatbot + role finder)
+- - Groq API (chatbot + role finder) — llama-3.1-8b-instant model
 
 ---
 
