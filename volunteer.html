@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Take the AI-powered quiz to find your perfect volunteer role at NayePankh Foundation. Match your skills with social impact opportunities.">
+  <title>Volunteer — Find Your Role | NayePankh Foundation</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-brand">
+        <div class="logo-icon">🕊️</div>
+        <span>Naye<span class="text-gradient">Pankh</span></span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="volunteer.html" class="active">Volunteer</a>
+        <a href="stories.html">Stories</a>
+        <a href="donate.html">Donate</a>
+      </div>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle dark mode">🌙</button>
+        <a href="donate.html" class="btn btn-primary btn-sm">Donate ❤️</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== PAGE HEADER ===== -->
+  <section class="hero" style="min-height: 50vh;">
+    <div class="container" style="grid-template-columns: 1fr; text-align: center;">
+      <div class="hero-content" style="max-width: 700px; margin: 0 auto;">
+        <div class="hero-badge">
+          <span class="pulse"></span>
+          AI-Powered Matching
+        </div>
+        <h1 class="hero-title">
+          Find Your <span class="text-gradient">Perfect Role</span>
+        </h1>
+        <p class="hero-description" style="margin: 0 auto 36px;">
+          Answer 5 quick questions and our AI will match you with the volunteer role where you'll make the biggest impact at NayePankh Foundation.
+        </p>
+        <a href="#quiz" class="btn btn-primary btn-lg">Take the Quiz 🔮</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY VOLUNTEER ===== -->
+  <section class="section" style="padding-top: 40px;">
+    <div class="container">
+      <div class="text-center reveal" style="margin-bottom: 48px;">
+        <span class="section-label">Why Volunteer</span>
+        <h2 class="section-title">What You <span class="text-gradient">Gain</span></h2>
+        <p class="section-subtitle mx-auto">Volunteering at NayePankh isn't just about giving — it's about growing.</p>
+      </div>
+
+      <div class="grid-3 reveal">
+        <div class="card" style="text-align: center;">
+          <div class="card-icon-box orange">🏆</div>
+          <h3>Verified Certificate</h3>
+          <p>Receive a government-recognized internship certificate upon completion, verified by NayePankh Foundation.</p>
+        </div>
+        <div class="card" style="text-align: center;">
+          <div class="card-icon-box green">🚀</div>
+          <h3>Real Experience</h3>
+          <p>Work on actual campaigns, build your portfolio, and develop skills that matter in the real world.</p>
+        </div>
+        <div class="card" style="text-align: center;">
+          <div class="card-icon-box blue">🤝</div>
+          <h3>Network</h3>
+          <p>Connect with 30,000+ like-minded changemakers, industry mentors, and social leaders across India.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AI ROLE FINDER QUIZ ===== -->
+  <section class="quiz-section" id="quiz">
+    <div class="container">
+      <div class="text-center reveal" style="margin-bottom: 48px;">
+        <span class="section-label">AI Role Finder</span>
+        <h2 class="section-title">Discover Your <span class="text-gradient">Ideal Role</span></h2>
+        <p class="section-subtitle mx-auto">Our AI analyzes your interests, skills, and availability to recommend the perfect volunteer role.</p>
+      </div>
+
+      <div id="quizContainer" class="reveal">
+        <!-- Quiz renders here via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AVAILABLE ROLES ===== -->
+  <section class="impact-section">
+    <div class="container">
+      <div class="text-center reveal" style="margin-bottom: 48px;">
+        <span class="section-label">Volunteer Roles</span>
+        <h2 class="section-title">All Available <span class="text-gradient">Positions</span></h2>
+        <p class="section-subtitle mx-auto">Can't take the quiz? Browse all available roles below.</p>
+      </div>
+
+      <div class="grid-3 reveal">
+        <div class="card">
+          <div class="card-icon-box orange">🎨</div>
+          <h3>Creative Design</h3>
+          <p>Create posters, social media graphics, and visual content for awareness campaigns and events.</p>
+          <div style="margin-top: 16px;">
+            <span style="font-size: 0.78rem; color: var(--text-muted);">Skills: Canva, Figma, Photoshop</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-icon-box blue">💻</div>
+          <h3>Tech & Development</h3>
+          <p>Build internal tools, automate workflows, and develop web solutions for the foundation.</p>
+          <div style="margin-top: 16px;">
+            <span style="font-size: 0.78rem; color: var(--text-muted);">Skills: HTML, CSS, JS, Python</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-icon-box green">📢</div>
+          <h3>Outreach & Campaigns</h3>
+          <p>Organize awareness drives, manage social media, and coordinate with local communities.</p>
+          <div style="margin-top: 16px;">
+            <span style="font-size: 0.78rem; color: var(--text-muted);">Skills: Communication, Social Media</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-icon-box purple">📝</div>
+          <h3>Content & Writing</h3>
+          <p>Write blogs, impact stories, newsletters, and compelling copy for campaigns.</p>
+          <div style="margin-top: 16px;">
+            <span style="font-size: 0.78rem; color: var(--text-muted);">Skills: Writing, Editing, Research</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-icon-box orange">📊</div>
+          <h3>Data & Analytics</h3>
+          <p>Track campaign metrics, analyze volunteer data, and create impact dashboards.</p>
+          <div style="margin-top: 16px;">
+            <span style="font-size: 0.78rem; color: var(--text-muted);">Skills: Excel, Data Analysis</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-icon-box green">🤝</div>
+          <h3>Community Management</h3>
+          <p>Manage volunteer teams, coordinate events, and handle intern onboarding.</p>
+          <div style="margin-top: 16px;">
+            <span style="font-size: 0.78rem; color: var(--text-muted);">Skills: Leadership, Organization</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VOLUNTEER FORM ===== -->
+  <section class="section" id="apply">
+    <div class="container">
+      <div class="text-center reveal" style="margin-bottom: 48px;">
+        <span class="section-label">Apply Now</span>
+        <h2 class="section-title">Ready to <span class="text-gradient">Join</span>?</h2>
+        <p class="section-subtitle mx-auto">Fill out this quick form and we'll get back to you within 48 hours.</p>
+      </div>
+
+      <div class="reveal" style="max-width: 600px; margin: 0 auto;">
+        <div class="card" style="padding: 40px;">
+          <form id="volunteerForm" onsubmit="handleVolunteerSubmit(event)">
+            <div class="grid-2">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" placeholder="Your first name" required>
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" placeholder="Your last name" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="your.email@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="role">Preferred Role</label>
+              <select id="role" required>
+                <option value="">Select a role...</option>
+                <option value="design">🎨 Creative Design</option>
+                <option value="tech">💻 Tech & Development</option>
+                <option value="outreach">📢 Outreach & Campaigns</option>
+                <option value="content">📝 Content & Writing</option>
+                <option value="data">📊 Data & Analytics</option>
+                <option value="community">🤝 Community Management</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="motivation">Why do you want to volunteer?</label>
+              <textarea id="motivation" placeholder="Tell us what motivates you..." rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+              Submit Application 🚀
+            </button>
+          </form>
+
+          <div id="formSuccess" style="display: none; text-align: center; padding: 40px 0;">
+            <div style="font-size: 4rem; margin-bottom: 16px;">🎉</div>
+            <h3 style="margin-bottom: 8px;">Application Submitted!</h3>
+            <p style="color: var(--text-secondary);">Thank you for wanting to volunteer! We'll review your application and get back to you within 48 hours.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>🕊️ NayePankh Foundation</h3>
+          <p>A government-registered NGO empowering communities through education, health, women empowerment, and environmental conservation since 2020.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/nayepankhfoundation/" target="_blank" aria-label="Instagram">📷</a>
+            <a href="https://www.linkedin.com/company/nayepankh-foundation/" target="_blank" aria-label="LinkedIn">💼</a>
+            <a href="https://twitter.com/NayePankh" target="_blank" aria-label="Twitter">🐦</a>
+            <a href="https://www.facebook.com/nayepankhfoundation/" target="_blank" aria-label="Facebook">📘</a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="volunteer.html">Volunteer</a>
+          <a href="stories.html">Impact Stories</a>
+          <a href="donate.html">Donate</a>
+        </div>
+        <div class="footer-column">
+          <h4>Programs</h4>
+          <a href="#">Education</a>
+          <a href="#">Healthcare</a>
+          <a href="#">Women Empowerment</a>
+          <a href="#">Environment</a>
+        </div>
+        <div class="footer-column">
+          <h4>Legal</h4>
+          <a href="#">NITI Aayog Registered</a>
+          <a href="#">12A Certified</a>
+          <a href="#">80G Certified</a>
+          <a href="https://nayepankh.com" target="_blank">Official Website</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2024 NayePankh Foundation. All rights reserved.</span>
+        <span>Made with ❤️ for a better world</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- AI Chat Widget -->
+  <div class="chat-widget" id="chatWidget">
+    <div class="chat-window" id="chatWindow">
+      <div class="chat-header">
+        <div class="chat-avatar">🤖</div>
+        <div class="chat-info">
+          <h4>NayeBot — AI Assistant</h4>
+          <span>Online • Powered by Groq AI</span>
+        </div>
+      </div>
+      <div class="chat-messages" id="chatMessages"></div>
+      <div class="chat-input-area">
+        <input type="text" id="chatInput" placeholder="Ask anything about NayePankh..." autocomplete="off">
+        <button id="chatSend" aria-label="Send message">➤</button>
+      </div>
+    </div>
+    <button class="chat-toggle" id="chatToggle" aria-label="Open chat">💬<div class="badge"></div></button>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/chat.js"></script>
+  <script src="js/role-finder.js"></script>
+  <script>
+    function handleVolunteerSubmit(e) {
+      e.preventDefault();
+      document.getElementById('volunteerForm').style.display = 'none';
+      document.getElementById('formSuccess').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
